@@ -18,6 +18,4 @@ if (rendaMensalEmCentavos > 2_000_00 && mesesDecorridos <= 60 && totalJaPagoPelo
     } else {
         console.log(`O valor da parcela desse mês é R$ 0 reais. Nenhum valor é devido pois a dívida já está quitada.`);
     }
-
-
 }
